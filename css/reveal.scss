@@ -19,7 +19,9 @@ html.reveal-full-page {
 	height: calc( var(--vh, 1vh) * 100 );
 	overflow: hidden;
 }
-
+.make-it-pop {
+	filter: drop-shadow(0 0 10px purple);
+  }
 .reveal-viewport {
 	height: 100%;
 	overflow: hidden;
